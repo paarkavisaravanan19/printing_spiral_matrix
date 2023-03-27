@@ -9,6 +9,7 @@ namespace ConsoleApplication
             int i, k = 0, l = 0;
             while (k < m && l < n)
             {
+
                 for (i = l; i < n; ++i)
                 {
                     Console.Write(matrix[k, i] + " ");
